@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent Master | Simple Property Management Platform</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Rent<span>Master</span></a>
+      <ul class="nav-links">
+        <a href="#why-rentmaster">Why Us</a>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#history-preview">Live Preview</a>
+        <a href="#register" class="cta-btn">Register Free</a>
+      </ul>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Property Management, Simplified.</h1>
+        <p>
+          The straightforward platform for independent landlords to manage
+          assets, coordinate tenant lifecycle transformations, upload physical
+          leases, and instantly handle monthly billing cycles.
+        </p>
+        <div class="hero-btns">
+          <a href="#register" class="btn btn-primary">Get Started Free</a>
+          <a href="#features" class="btn btn-secondary">Explore Features</a>
+        </div>
+      </div>
+      <div class="hero-image-container">
+        <div class="mockup-dashboard">
+          <div class="mockup-header">
+            <div class="mockup-dots">
+              <div class="mockup-dot"></div>
+              <div class="mockup-dot"></div>
+              <div class="mockup-dot"></div>
+            </div>
+            <div class="mockup-title">rentmasterpro.com/dashboard/owner</div>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-sidebar">
+              <div class="mockup-nav-item active"></div>
+              <div class="mockup-nav-item"></div>
+              <div class="mockup-nav-item"></div>
+              <div class="mockup-nav-item"></div>
+            </div>
+            <div class="mockup-main">
+              <div class="mockup-metrics">
+                <div class="mockup-card"></div>
+                <div class="mockup-card"></div>
+              </div>
+              <div class="mockup-table">
+                <div class="mockup-row"></div>
+                <div class="mockup-row"></div>
+                <div class="mockup-row"></div>
+                <div class="mockup-row"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-rentmaster" class="value-prop">
+      <h2 class="section-title">Built For Independent Landlords</h2>
+      <p class="section-subtitle">
+        Stop digging through messy email files, tracking physical paper
+        contracts, and typing rental receipts by hand every single month.
+      </p>
+
+      <div class="prop-container">
+        <div class="prop-box pain">
+          <h3>The Old, Scattered Method</h3>
+          <ul>
+            <li>
+              Lease documents lost inside storage folders or desk drawers.
+            </li>
+            <li>
+              No chronological history of past rent values or structural
+              adjustments.
+            </li>
+            <li>
+              Tracking down tenant payments via endless texts or phone records.
+            </li>
+            <li>Manually creating text receipts every billing period.</li>
+            <li>Misplaced maintenance logs scribbled on notebooks.</li>
+          </ul>
+        </div>
+        <div class="prop-box solution">
+          <h3>The Rent Master Pro Environment</h3>
+          <ul>
+            <li>
+              Physical agreements securely archived inside a document vault.
+            </li>
+            <li>
+              Immutable timeline logs documenting historical property
+              transformations.
+            </li>
+            <li>
+              Dedicated custom client accounts with transparent login keys.
+            </li>
+            <li>System-wide automated generation of monthly receipts.</li>
+            <li>Direct structural ticket logging with owner dashboards.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features-section">
+      <h2 class="section-title">One Dashboard. Total Synchronization.</h2>
+      <p class="section-subtitle">
+        Click below to view the dedicated feature layout screens customized
+        perfectly for both asset holders and active tenants.
+      </p>
+
+      <div class="tab-container">
+        <button
+          class="tab-btn active"
+          id="btn-owner"
+          onclick="switchTab('owner')"
+        >
+          For Property Owners
+        </button>
+        <button class="tab-btn" id="btn-tenant" onclick="switchTab('tenant')">
+          For Tenants
+        </button>
+      </div>
+
+      <div id="owner-features" class="feature-grid active">
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>🏢</h2>
+            <h3>Register Properties</h3>
+          </div>
+          <p>
+            Instantly document your structural holdings. Input precise real
+            estate records and outline specific rental criteria variables
+            effortlessly.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>👤</h2>
+            <h3>Onboard Tenants</h3>
+          </div>
+          <p>
+            Assign names and establish unique login credentials to hand over.
+            Tenants use these system metrics to safely configure their personal
+            passkeys.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>🔄</h2>
+            <h3>Complete Lifecycle Tasks</h3>
+          </div>
+          <p>
+            Initiate rental timelines, easily execute localized rental price
+            updates, or safely close files when units become vacant.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>📂</h2>
+            <h3>Document Vault Uploads</h3>
+          </div>
+          <p>
+            Upload files or images of physically signed lease agreement
+            contracts directly to the cloud for fast audit validation
+            references.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>📅</h2>
+            <h3>Automated Receipt Drops</h3>
+          </div>
+          <p>
+            No manual drafting. Our core calculation engine creates structured,
+            formal rental invoice receipts automatically every single month.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>📜</h2>
+            <h3>Property History Tables</h3>
+          </div>
+          <p>
+            Every tenancy update, price index shift, and structural vacancy is
+            logged inside a chronological historical timeline ledger.
+          </p>
+        </div>
+      </div>
+
+      <div id="tenant-features" class="feature-grid">
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>🔑</h2>
+            <h3>Pinpoint Access Portal</h3>
+          </div>
+          <p>
+            Log inside your account using the provided unique Property ID
+            tracking parameter alongside your custom password configuration
+            keys.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>💸</h2>
+            <h3>Simple Money Tracker</h3>
+          </div>
+          <p>
+            Send rent transaction records transparently through the portal
+            environment, alerting owners to pending verification updates
+            instantly.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>📥</h2>
+            <h3>On-Demand Document Desk</h3>
+          </div>
+          <p>
+            Instantly pull system records down. Access active physical lease
+            copies or download generated rent invoices dynamically at any hour.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-title">
+            <h2>🛠️</h2>
+            <h3>Express Ticket Submissions</h3>
+          </div>
+          <p>
+            Encountered a leak or maintenance bug? Instantly alert the asset
+            owner by logging structural problem tickets inside the interface
+            tracker.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+      <h2 class="section-title">Setting Up Takes Minutes</h2>
+      <p class="section-subtitle">
+        A straightforward configuration blueprint built intentionally for speed
+        and clarity.
+      </p>
+      <div class="steps-container">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>List Properties</h3>
+          <p>
+            Input structural details like address metrics and identifiers into
+            your system environment dashboard.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Pass Portal Keys</h3>
+          <p>
+            Generate secure system login tags right from the panel and hand them
+            off directly to incoming occupants.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Let Automation Rule</h3>
+          <p>
+            Log property history events, process incoming repair tickets, and
+            let monthly payment receipts generate on autopilot.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="history-preview" class="table-showcase">
+      <div class="live-status-badge">
+        <div class="pulse-dot"></div>
+        Live Environment Preview
+      </div>
+      <h2 class="section-title">The Property History Table Ledger</h2>
+      <p class="section-subtitle">
+        A real-world look at how the app logs property lifecycle milestones
+        automatically in real-time over time.
+      </p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Date Timestamp</th>
+              <th>Property Identifier</th>
+              <th>Event Category</th>
+              <th>Tenant Identity</th>
+              <th>Financial Status/Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>June 01, 2026</td>
+              <td>Apt-4B (Metro Towers)</td>
+              <td><span class="badge badge-success">Rent Initiated</span></td>
+              <td>Rahman, M.</td>
+              <td>Rent set at $1,200/mo. Signed contract uploaded.</td>
+            </tr>
+            <tr>
+              <td>May 15, 2026</td>
+              <td>Apt-4B (Metro Towers)</td>
+              <td><span class="badge badge-info">Tenant Added</span></td>
+              <td>Rahman, M.</td>
+              <td>Portal access credentials dispatched to user.</td>
+            </tr>
+            <tr>
+              <td>May 01, 2026</td>
+              <td>Apt-4B (Metro Towers)</td>
+              <td><span class="badge badge-warning">Rent Increased</span></td>
+              <td>- Vacant -</td>
+              <td>Base target adjusted from $1,100 to $1,200.</td>
+            </tr>
+            <tr>
+              <td>April 30, 2026</td>
+              <td>Apt-4B (Metro Towers)</td>
+              <td><span class="badge badge-warning">Unit Vacated</span></td>
+              <td>Shovon, A.</td>
+              <td>Move-out checklist processed. Logged historical closure.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="demo-action-container">
+        <a
+          href="https://rent-master-pro.vercel.app/"
+          target="_blank"
+          class="btn-demo"
+        >
+          <span>Explore Interactive Demo Site</span>
+          <strong>&rarr;</strong>
+        </a>
+      </div>
+    </section>
+
+    <section id="register" class="register-section">
+      <h2 class="section-title" style="color: white">
+        Simplify Your Management Operations Today
+      </h2>
+      <p>
+        No card metrics required. Establish your infrastructure and invite
+        tenants instantly.
+      </p>
+
+      <div class="form-container">
+        <form id="registrationForm">
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              id="fullName"
+              placeholder="e.g. Shovon Rahman"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="name@domain.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">System Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="••••••••"
+              required
+            />
+          </div>
+          <button type="submit" class="submit-btn">Create Free Account</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="attribution-section">
+      <div class="creator-card">
+        <p>Engineered & Designed by</p>
+        <a href="#" target="_blank" class="brand-link">
+          Nirmata<span>.ai</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2026 Rent Master Inc. All system data records safely documented.
+        All rights reserved.
+      </p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
